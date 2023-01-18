@@ -5,10 +5,36 @@
       <link rel="shortcut icon" href="golfhål.png">
       <script src="https://kit.fontawesome.com/48c780c0b0.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="minisajt.css">
-    </head>
+    
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+              x.style.display = "none";
+            } else {
+              x.style.display = "block";
+            }
+          }
+          </script>
+
+      </head>
     <header>
       <h1><a href="GolfHub.html"> GolfHub</a></h1>
     </header>
+
+    
+    <div class="topnav">
+      <a href="GolfHub.html" class="active">Logo</a>
+      <div id="myLinks">
+        <a href="Klubbhuvud.html">News</a>
+        <a href="Skaft.html">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    
     <body>
               <ul class="navbar">
                 <li id="navbar"><a href="GolfHub.html"><i class="fa-solid fa-user"></i> Hem</a></li>
