@@ -350,17 +350,14 @@
     }
     .informations-tabell-1 li {
         color: aqua;
-        
         padding: 0.43%;
     }
     .informations-tabell-2 li {
         color: aqua;
-        
         padding: 0.18%;
     }
     .informations-tabell-3 li {
         color: aqua;
-        
         padding: 1.12%;
     }
     .informations-tabell-4 li {
@@ -406,7 +403,7 @@
         border-color: rgb(0, 0, 0);
         border-radius: 10px;
         border-style: solid;
-        margin-top: 70ch;
+        margin-top: 80ch;
     }
     li a:hover {
         background-color: black;
@@ -455,8 +452,8 @@
     #bild-2 {
         margin-top: 0;
         float: left;
-        width: 30vw;
-        height: 60vh;
+        width: 30%;
+        height: 60%;
         padding-right: 3%;
     }
     .horisontel-text-ruta-1 {
@@ -524,7 +521,7 @@
         margin-top: 1.2%;
         margin-left: 0%;
         background-color: rgb(65, 70, 65);
-        width: 90%;
+        width: 99%;
         border-radius: 15px;
         border-style: solid;
         border-color: black;
@@ -534,7 +531,7 @@
         margin-top: 1.2%;
         margin-left: 0%;
         background-color: rgb(65, 70, 65);
-        width: 90%;
+        width: 99%;
         border-radius: 15px;
         border-style: solid;
         border-color: black;
@@ -544,7 +541,7 @@
         margin-top: 1.2%;
         margin-left: 0%;
         background-color: rgb(65, 70, 65);
-        width: 90%;
+        width: 99%;
         border-radius: 15px;
         border-style: solid;
         border-color: black;
@@ -563,21 +560,22 @@
     }
     .informations-tabell-1 li {
         color: aqua;
-        
-        padding: 0.43%;
+        margin-left: 35%;
+        padding: 0.53%;
     }
     .informations-tabell-2 li {
         color: aqua;
-        
-        padding: 0.18%;
+        margin-left: 35%;
+        padding: 0.39%;
     }
     .informations-tabell-3 li {
         color: aqua;
-        
-        padding: 1.12%;
+        margin-left: 35%;
+        padding: 0.98%;
     }
     .informations-tabell-4 li {
         color: aqua;
+        margin-left: 35%;
         padding: 0.8%;
     }
     .navbar {
@@ -604,10 +602,6 @@
         border-color: rgba(0, 255, 255, 0);
         border-radius: 8px;
     }
-    .bild-tabell {
-        width: 40%;
-        height: 100%;
-    }
     footer {
         position: relative;
         bottom: 0;
@@ -619,7 +613,7 @@
         border-color: rgb(0, 0, 0);
         border-radius: 10px;
         border-style: solid;
-        margin-top: 70ch;
+        margin-top: 40ch;
     }
     .footer-2 {
         position: relative;
