@@ -20,12 +20,13 @@ body {
     background-color: rgb(65, 60, 60);
 }
 #bild {
-    width: 30%;
-    height: 2%;
-    padding: 1.3%;
+    margin: 2%;
+    float: left;
+    width: 96%;
+    height: 40%;
 }
 #bild-2 {
-    margin-top: 0;
+    margin: 1%;
     float: left;
     width: 30%;
     height: 60%;
@@ -136,17 +137,17 @@ p {
 .informations-tabell-1 li {
     color: aqua;
     margin-left: 35%;
-    padding: 0.4%;
+    padding: 0.52%;
 }
 .informations-tabell-2 li {
     color: aqua;
     margin-left: 35%;
-    padding: 0.25%;
+    padding: 0.35%;
 }
 .informations-tabell-3 li {
     color: aqua;
     margin-left: 35%;
-    padding: 0.98%;
+    padding: 0.94%;
 }
 .informations-tabell-4 li {
     color: aqua;
@@ -164,7 +165,7 @@ footer {
     border-color: rgb(0, 0, 0);
     border-radius: 10px;
     border-style: solid;
-    margin-top: 40ch;
+    margin-top: 70ch;
 }
 .footer-2 {
     position: relative;
@@ -177,7 +178,7 @@ footer {
     border-color: rgb(0, 0, 0);
     border-radius: 10px;
     border-style: solid;
-    margin-top: 185ch;
+    margin-top: 205ch;
 }
 .footer-3 {
     position: relative;
@@ -190,7 +191,7 @@ footer {
     border-color: rgb(0, 0, 0);
     border-radius: 10px;
     border-style: solid;
-    margin-top: 185ch;
+    margin-top: 195ch;
 }
 li a:hover {
     background-color: black;
@@ -267,6 +268,17 @@ li a:hover {
         background-color: aqua;
         border-radius: 10px;
     }
+    .log-in-form{
+        background-color: rgb(207, 207, 207);
+        width: 60%; 
+        height: 60vh;
+        margin-left: 20%;
+        position: relative;
+        text-align: center;
+        color: goldenrod;
+        margin-top: 5%;
+    }
+
 @media screen and (max-width: 800px) {
     header {
         top: 0%;
@@ -290,13 +302,14 @@ li a:hover {
         background-color: rgb(16, 64, 197);
     }
     #bild {
-        width: 30%;
+        margin: 2%;
+        width: 94.5%;
         height: 2%;
         padding: 1%;
     }
     #bild-2 {
         margin-top: 2%;
-        width: 97%;
+        width: 95.5%;
         height: 60%;
         padding: 1.3%;    
     }
@@ -404,23 +417,22 @@ li a:hover {
     }
     .informations-tabell-1 li {
         color: aqua;
-        
+        margin-left: 0%;
         padding: 0.43%;
     }
     .informations-tabell-2 li {
         color: aqua;
-        
+        margin-left: 0%;
         padding: 0.18%;
     }
     .informations-tabell-3 li {
         color: aqua;
-        
+        margin-left: 0%;
         padding: 1.12%;
     }
     .informations-tabell-4 li {
         color: aqua;
-        
-        margin-left: 23%;
+        margin-left: 0%;
         padding: 2.14%;
     }
     footer {
@@ -434,7 +446,7 @@ li a:hover {
         border-color: rgb(0, 0, 0);
         border-radius: 10px;
         border-style: solid;
-        margin-top: 90ch;
+        margin-top: 370%;
     }
     .footer-2 {
         position: relative;
@@ -447,7 +459,7 @@ li a:hover {
         border-color: rgb(0, 0, 0);
         border-radius: 10px;
         border-style: solid;
-        margin-top: 405ch;
+        margin-top: 955%;
     }
     .footer-3 {
         position: relative;
@@ -460,7 +472,7 @@ li a:hover {
         border-color: rgb(0, 0, 0);
         border-radius: 10px;
         border-style: solid;
-        margin-top: 260ch;
+        margin-top: 620%;
     }
     li a:hover {
         background-color: black;
@@ -508,6 +520,16 @@ li a:hover {
     .navbar-links.active {
         display: flex;
     }
+    .log-in-form{
+        background-color: rgb(207, 207, 207);
+        width: 60%; 
+        height: 60vh;
+        margin-left: 20%;
+        position: relative;
+        text-align: center;
+        color: goldenrod;
+        margin-top: 5%;
+    }
 }
    @media screen and (max-width: 1200px) and (min-width: 801px) {
     header {
@@ -532,9 +554,10 @@ li a:hover {
         background-color: rgb(197, 16, 16);
     }
     #bild {
-        width: 30%;
+        margin: 2%;
+        width: 94.5%;
         height: 2%;
-        padding: 1.3%;
+        padding: 1%;
     }
     #bild-2 {
         margin-top: 2%;
@@ -635,7 +658,7 @@ li a:hover {
     }
     p {
         color: aqua;
-        padding-left: 1%;
+        padding-left: 5%;
     }
     .sport-lista{
         border-color: rgb(1, 1, 1);
@@ -646,14 +669,17 @@ li a:hover {
     }
     .informations-tabell-1 li {
         color: aqua;
+        margin-left: 0%;
         padding: 0.43%;
     }
     .informations-tabell-2 li {
         color: aqua;
+        margin-left: 0%;
         padding: 0.18%;
     }
     .informations-tabell-3 li {
         color: aqua;
+        margin-left: 0%;
         padding: 1.12%;
     }
     .informations-tabell-4 li {
@@ -672,7 +698,7 @@ li a:hover {
         border-color: rgb(0, 0, 0);
         border-radius: 10px;
         border-style: solid;
-        margin-top: 79ch;
+        margin-top: 117%;
     }
     .footer-2 {
         position: relative;
@@ -685,7 +711,7 @@ li a:hover {
         border-color: rgb(0, 0, 0);
         border-radius: 10px;
         border-style: solid;
-        margin-top: 448ch;
+        margin-top: 480%;
     }
     .footer-3 {
         position: relative;
@@ -698,7 +724,7 @@ li a:hover {
         border-color: rgb(0, 0, 0);
         border-radius: 10px;
         border-style: solid;
-        margin-top: 482ch;
+        margin-top: 525%;
     }
     li a:hover {
         background-color: black;
@@ -745,6 +771,17 @@ li a:hover {
 
     .navbar-links.active {
         display: flex;
+    }
+    .log-in-form{
+        background-color: rgb(207, 207, 207);
+        width: 60%; 
+        height: 75vh;
+        margin-left: 20%;
+        padding: 10%;
+        position: relative;
+        text-align: center;
+        color: goldenrod;
+        margin-top: 5%;
     }
    }
    
