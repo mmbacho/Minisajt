@@ -127,13 +127,6 @@ p {
     color: aqua;
     padding-left: 1%;
 }
-.sport-lista{
-    border-color: rgb(1, 1, 1);
-    border-radius: 15px;
-    border-style: solid;
-    background-color: black;
-    padding-bottom: 0.5%;
-}
 .informations-tabell-1 li {
     color: aqua;
     margin-left: 35%;
@@ -269,14 +262,23 @@ li a:hover {
         border-radius: 10px;
     }
     .log-in-form{
-        background-color: rgb(207, 207, 207);
+        background-color: rgb(88, 85, 85);
         width: 60%; 
         height: 60vh;
         margin-left: 20%;
         position: relative;
         text-align: center;
-        color: goldenrod;
+        color: rgb(32, 209, 218);
         margin-top: 5%;
+        border-style: solid;
+        border-radius: 15px;
+        border-color: black;
+    }
+    label {
+        font-size: 2rem;
+    }
+    input {
+        font-size: 2rem;
     }
 
 @media screen and (max-width: 800px) {
@@ -299,7 +301,7 @@ li a:hover {
         padding-bottom: 2.4%;
     }
     body {
-        background-color: rgb(16, 64, 197);
+        background-color: rgb(65, 60, 60);
     }
     #bild {
         margin: 2%;
@@ -408,13 +410,6 @@ li a:hover {
         color: aqua;
         padding-left: 1%;
     }
-    .sport-lista{
-        border-color: rgb(1, 1, 1);
-        border-radius: 15px;
-        border-style: solid;
-        background-color: black;
-        padding-bottom: 0.5%;
-    }
     .informations-tabell-1 li {
         color: aqua;
         margin-left: 0%;
@@ -521,14 +516,23 @@ li a:hover {
         display: flex;
     }
     .log-in-form{
-        background-color: rgb(207, 207, 207);
+        background-color: rgb(88, 85, 85);
         width: 60%; 
-        height: 60vh;
+        height: 70vh;
         margin-left: 20%;
         position: relative;
         text-align: center;
-        color: goldenrod;
+        color: rgb(32, 209, 218);
         margin-top: 5%;
+        border-style: solid;
+        border-radius: 15px;
+        border-color: black;
+    }
+    label {
+        font-size: 1rem;
+    }
+    input {
+        font-size: 1rem;
     }
 }
    @media screen and (max-width: 1200px) and (min-width: 801px) {
@@ -551,7 +555,7 @@ li a:hover {
         padding-bottom: 2.4%;
     }
     body {
-        background-color: rgb(197, 16, 16);
+        background-color: rgb(65, 60, 60);
     }
     #bild {
         margin: 2%;
@@ -660,13 +664,6 @@ li a:hover {
         color: aqua;
         padding-left: 5%;
     }
-    .sport-lista{
-        border-color: rgb(1, 1, 1);
-        border-radius: 15px;
-        border-style: solid;
-        background-color: black;
-        padding-bottom: 0.5%;
-    }
     .informations-tabell-1 li {
         color: aqua;
         margin-left: 0%;
@@ -773,15 +770,23 @@ li a:hover {
         display: flex;
     }
     .log-in-form{
-        background-color: rgb(207, 207, 207);
+        background-color: rgb(88, 85, 85);
         width: 60%; 
-        height: 75vh;
+        height: 80vh;
         margin-left: 20%;
-        padding: 10%;
         position: relative;
         text-align: center;
-        color: goldenrod;
+        color: rgb(32, 209, 218);
         margin-top: 5%;
+        border-style: solid;
+        border-radius: 15px;
+        border-color: black;
+    }
+    label {
+        font-size: 2rem;
+    }
+    input {
+        font-size: 2rem;
     }
    }
    
